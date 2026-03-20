@@ -1,14 +1,27 @@
-# Mistério na Mina Abandonada (Godot)
+# CicloOuro (Godot)
 
-Jogo point-and-click de investigação ambientado em uma operação de mina abandonada. O jogador explora o local, encontra pistas e monta a verdade por trás do fechamento.
+Jogo point-and-click de investigação ambientado em uma operação de mina abandonada na cidade de Jacobina. O jogador explora o local, encontra pistas e monta a verdade por trás do fechamento.
 
 ## Sistema de Arquivos
 
-- `Cenas/` Cenas do Godot (`.tscn`), incluindo a cena principal.
-- `Scripts/` Arquivos GDScript que controlam a lógica das cenas.
-- `project.godot` Configuração do projeto Godot.
-- `icon.svg` Ícone do projeto.
-- `.godot/` Cache do editor Godot (gerado automaticamente).
+```
+├─ Artes/                # Assets organizados por categoria
+│  ├─ Itens/
+│  ├─ Personagens/
+│  └─ TileSet/
+├─ Cenas/                # Scenes (.tscn)
+│  ├─ Itens/
+│  ├─ Mapas/
+│  └─ Personagens/
+├─ Scripts/              # Scripts GDScript (.gd)
+│  ├─ Aux/
+│  ├─ Itens/
+│  ├─ Mapas/
+│  └─ Personagens/
+├─ project.godot         # Configuração do projeto
+├─ icon.svg              # Ícone do projeto
+└─ icon.svg.import       # Metadados de importação do Godot
+```
 
 ## Como Rodar
 
