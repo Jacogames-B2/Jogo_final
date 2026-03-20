@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://d3m8bihbwk6n2"]
+
+[ext_resource type="Script" uid="uid://b0v1xt3e3d4qm" path="res://Scripts/Itens/item_coletavel.gd" id="1_4hwjm"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c8hhv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nm4c4"]
+
+[node name="Item_coletavel" type="Area2D" unique_id=222029094]
+script = ExtResource("1_4hwjm")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=191923751]
+sprite_frames = SubResource("SpriteFrames_c8hhv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2127349813]
+shape = SubResource("RectangleShape2D_nm4c4")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
