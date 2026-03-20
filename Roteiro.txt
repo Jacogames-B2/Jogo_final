@@ -173,7 +173,7 @@ Elias (pensamentos):
 ---
 ITEM 1 — LANTERNA
 
-📍 Local: mesa
+Local: mesa
 
 Elias:
 
@@ -200,7 +200,7 @@ Introduz:
 
 ITEM 3 — Provisões
 
-📍 Cozinha
+Cozinha
 
 Elias:
 
@@ -212,7 +212,7 @@ Introduz sobrevivência leve
 
 ITEM 4 — MAPA ANTIGO (PARCIAL)
 
-📍 Parede / mesa com papéis
+Parede / mesa com papéis
 
 Elias (analisando):
 
