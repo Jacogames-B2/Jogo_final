@@ -1,0 +1,373 @@
+CENA 1 — BAR DA CODORNA (ABERTURA)
+
+* Câmera fixa → ambiente fechado, abafado
+* Som alto: conversa, copos, risadas
+* Iluminação amarelada (suja, quente)
+
+* Ainda não controla o personagem
+* Introdução narrativa
+
+Bar cheio. Conversas cruzadas.
+A câmera percorre lentamente o ambiente.
+Para em **Elias Barreto**, em pé, alterado.
+
+Diálogo
+
+**Elias (exaltado):**
+
+> Vocês não estão entendendo… isso aqui não é teoria!
+
+**Cliente 1:**
+
+> Lá vem o doido da mina…
+
+**Elias:**
+
+> A Ciclo-Ouro cavou além do limite. Muito além.
+> Isso aqui… isso aqui tá vazio por baixo!
+
+**Cliente 2 (rindo):**
+
+> Vazio é tua cabeça, rapaz.
+
+**Elias (batendo na mesa):**
+
+> EU VI OS MAPAS!
+
+Silêncio parcial.
+
+**Elias (baixo, tenso):**
+
+> Túneis interligados… quilômetros… sem registro.
+
+**Cliente 3:**
+
+> E tu quer que a gente acredite que a cidade vai cair?
+
+**Elias:**
+
+> Não “vai”.
+> Já devia ter caído.
+
+---
+
+* Copo quebrando
+* Pessoas discutindo
+
+Porta abre com força.
+
+Polícia entra
+
+---
+Diálogo
+
+**Policial 1:**
+
+> Acabou. Todo mundo pra casa.
+
+**Policial 2 (olhando Elias):**
+
+> Você… fica.
+
+---
+
+CENA 2 — DELEGACIA
+
+* Fria, iluminação branca
+* Ambiente vazio, eco leve
+* Transição para primeira pessoa
+
+Diálogo
+
+**Policial 1:**
+
+> Você já causou pânico suficiente.
+
+**Elias:**
+
+> Pânico? Eu tô tentando evitar um desastre!
+
+**Policial 2:**
+
+> Você tá espalhando história.
+
+**Elias:**
+
+> Então me deixa provar.
+
+Silêncio.
+
+**Policial 1 (se inclina):**
+
+> Provar?
+
+**Elias:**
+
+> Me dá acesso à mina.
+
+**Policial 2 (olhar trocado com o outro):**
+
+> …
+
+**Policial 1 (irônico):**
+
+> E se a gente disser que… a segurança vai estar desligada?
+
+**Elias (confuso):**
+
+> O quê?
+
+**Policial 2:**
+
+> Nova empresa chegando. Transição.
+
+**Policial 1:**
+
+> 48 horas.
+
+Silêncio pesado.
+
+**Policial 1:**
+
+> Se você tá tão certo…
+> vai lá e prova.
+
+---
+
+(Pensamento) Algo está errado, mas ele ignora.
+
+---
+
+LIBERADO PARA JOGO
+
+---
+
+CENA 3 — CASA DO ELIAS (TUTORIAL)
+
+* Ambiente escuro
+* Luz entrando pela janela
+* Sons da cidade ao fundo
+
+---
+
+OBJETIVO
+
+> Preparar-se para entrar na mina
+
+---
+
+TUTORIAL ORGÂNICO (SEM HUD EXPLÍCITO)
+
+O jogador aprende jogando.
+
+---
+
+MECÂNICA: INTERAÇÃO
+
+Ao clicar em objetos:
+
+Elias (pensamentos):
+
+> Preciso levar só o essencial.
+
+---
+ITEM 1 — LANTERNA
+
+📍 Local: mesa
+
+Elias:
+
+> Sem luz, eu não vou durar 5 minutos lá dentro.
+
+Jogador pega
+Sistema de inventário é introduzido
+
+---
+
+ITEM 2 — BATERIAS
+
+Gaveta
+
+Elias:
+
+> Isso aqui acaba rápido… melhor garantir.
+
+Introduz:
+
+* Limite de recurso
+
+---
+
+ITEM 3 — Provisões
+
+📍 Cozinha
+
+Elias:
+
+> Não sei quanto tempo vou ficar lá.
+
+Introduz sobrevivência leve
+
+---
+
+ITEM 4 — MAPA ANTIGO (PARCIAL)
+
+📍 Parede / mesa com papéis
+
+Elias (analisando):
+
+> Isso não bate… tem coisa faltando aqui.
+
+Introduz:
+
+* Puzzle futuro
+* Mistério
+
+---
+
+ITEM 5 — RÁDIO
+
+Estante
+
+Elias:
+
+> Se isso ainda funcionar…
+
+Pode usar depois pra:
+
+captar sinais estranhos
+
+---
+
+ITEM 6 — FERRAMENTA (PICARETA / PÉ-DE-CABRA)
+
+Garagem / canto
+
+Elias:
+
+> Se tiver bloqueio… eu preciso disso.
+
+Introduz interação com ambiente
+
+---
+
+MECÂNICA: INVENTÁRIO
+
+* Jogador abre inventário
+* Combina itens (ex: baterias + lanterna)
+
+---
+
+MOMENTO NARRATIVO
+
+Após coletar tudo:
+
+Elias para.
+
+Olha pela janela.
+
+Som distante de trovão.
+
+---
+
+Monólogo
+
+> Se eu estiver errado…
+> eu sou só um louco.
+
+(pausa)
+
+> Mas se eu estiver certo…
+
+Olha pra cidade.
+
+> ninguém tá seguro.
+
+---
+FORESHADOW
+
+Primeiras gotas de chuva
+
+---
+
+CENA 4 — CAMINHO PARA A MINA
+
+* Exterior
+* Céu nublado
+* Som de vento
+
+---
+Gameplay leve
+
+* Caminhar
+* Interagir com portão
+
+---
+PUZZLE 1 — DESATIVAR SISTEMA
+
+Elementos:
+
+* Caixa elétrica
+* Câmera
+* Cadeado
+
+---
+Solução:
+
+1. Usar ferramenta → abrir caixa
+2. Cortar energia
+3. Câmera desliga
+4. Abrir portão
+
+---
+Elias
+
+> Segurança desligada… fácil demais.
+
+(pausa)
+
+> Isso não tá certo.
+
+---
+CENA 5 — ENTRADA DA MINA
+
+* Escuridão total
+* Som de água pingando
+* Eco profundo
+
+---
+Jogador entra
+Luz da lanterna acende
+
+---
+MOMENTO CHAVE
+
+Parede com marcações antigas
+
+Símbolos estranhos (indígenas)
+
+---
+Elias
+
+> Isso não é marca de mineração…
+
+(pausa)
+
+> Isso já tava aqui.
+
+---
+SOM DISTANTE
+
+Algo se move.
+
+Ou parece.
+
+---
+FINAL DO ATO 1
+
+Tela escurece lentamente.
+
+Texto:
+
+> "48 horas restantes."
+
