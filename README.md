@@ -6,8 +6,7 @@ Jogo point-and-click de investigação ambientado em uma operação de mina aban
 
 ```
 ├─ Artes/                # Assets organizados por categoria
-│  ├─ Itens/
-│  ├─ Personagens/
+│  ├─ Animações
 │  └─ TileSet/
 ├─ Cenas/                # Scenes (.tscn)
 │  ├─ Itens/
