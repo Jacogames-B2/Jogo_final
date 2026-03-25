@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://chd44cwat4eck"]
+
+[ext_resource type="Script" uid="uid://bvrhlbmykvuvp" path="res://Scripts/Itens/transicao_de_sala.gd" id="1_31286"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eibqd"]
+
+[node name="Transicao_de_sala" type="Area2D" unique_id=527440430]
+script = ExtResource("1_31286")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1795267725]
+shape = SubResource("RectangleShape2D_eibqd")
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]

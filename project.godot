@@ -17,6 +17,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 Global="*uid://btk3s2xbg4bh5"
+ItemData="*uid://bh8kq0mt7lm1h"
 
 [physics]
 
