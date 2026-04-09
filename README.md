@@ -36,3 +36,8 @@ Jogo point-and-click de investigação ambientado em uma operação de mina aban
 3. Implementar interações de clique e uma UI de inventário/registro de pistas.
 4. Adicionar áudio ambiente e efeitos visuais para o clima de mistério.
 5. Criar um vertical slice curto e playtestar ritmo e clareza.
+
+## Plugins
+1. Dialogue Manager{
+
+}

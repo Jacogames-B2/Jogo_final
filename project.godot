@@ -18,6 +18,15 @@ config/icon="res://icon.svg"
 
 Global="*uid://btk3s2xbg4bh5"
 ItemData="*uid://bh8kq0mt7lm1h"
+DialogueManager="*uid://c3rodes2l3gxb"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
+
+[internationalization]
+
+locale/translations_pot_files=PackedStringArray("res://dialogos/teste.dialogue")
 
 [physics]
 
@@ -25,6 +34,7 @@ ItemData="*uid://bh8kq0mt7lm1h"
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
