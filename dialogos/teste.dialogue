@@ -1,11 +1,27 @@
+~ inicio
+Elias Barreto: [[Opa!|Eai!|Fala!]] Tudo bem por aí?
+- Tudo ótimo!
+	=> reacao_positiva
+- Mais ou menos...
+	=> reacao_neutra
+- Deixa eu te contar uma coisa
+	=> segredo
 
-~ start
-Elias Barreto: [[Opa!| Eai!| Fala!]]
-- Seila
-	Elias Barreto: sfjkljsjfksjfls
-- ssss
-	Elias Barreto: fjskafjl
-- reiniciar => start
-- Finalizar => END
-Elias Barreto: Finalizado!
+~ reacao_positiva
+Elias Barreto: Que bom! Precisamos de ânimo pra enfrentar o que vem por aí.
+=> despedida
+
+~ reacao_neutra
+Elias Barreto: Entendo. Esses últimos dias têm sido pesados pra todo mundo.
+Elias Barreto: Mas não desanima não.
+=> despedida
+
+~ segredo
+Elias Barreto: Pode falar. Aqui entre nós.
+Narrador: Elias se aproxima e abaixa a voz.
+Elias Barreto: Eu sei o que tem embaixo dessa cidade. E em breve todo mundo vai saber também.
+=> despedida
+
+~ despedida
+Elias Barreto: [[Até logo!|Cuida-se!|A gente se vê.]]
 => END

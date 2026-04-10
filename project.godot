@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Turma B2"
+run/main_scene="res://Cenas/cena_principal.tscn"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -19,6 +20,11 @@ config/icon="res://icon.svg"
 Global="*uid://btk3s2xbg4bh5"
 ItemData="*uid://bh8kq0mt7lm1h"
 DialogueManager="*uid://c3rodes2l3gxb"
+InventoryManager="*uid://nfnqhmlxk7mk"
+
+[dialogue_manager]
+
+runtime/balloon_path="res://dialogos/balloon.tscn"
 
 [editor_plugins]
 

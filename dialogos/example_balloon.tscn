@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://cbtus42n7i81m"]
+
+[ext_resource type="Script" uid="uid://d1wt4ma6055l8" path="res://addons/dialogue_manager/example_balloon/example_balloon.gd" id="1_mstjs"]
+[ext_resource type="PackedScene" uid="uid://ckvgyvclnwggo" path="res://addons/dialogue_manager/dialogue_label.tscn" id="2_akdm4"]
+
+[node name="ExampleBalloon" type="CanvasLayer" unique_id=652999862]
+layer = 128
+script = ExtResource("1_mstjs")
+
+[node name="Balloon" type="NinePatchRect" parent="." unique_id=1401646565]
+size_flags_horizontal = 3
+size_flags_vertical = 3
+focus_mode = 2
+mouse_filter = 0
+patch_margin_left = 25
+patch_margin_top = 25
+patch_margin_right = 25
+patch_margin_bottom = 25
+
+[node name="Margin" type="MarginContainer" parent="Balloon" unique_id=2035857599]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBox" type="VBoxContainer" parent="Balloon/Margin" unique_id=1015501708]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Character" type="RichTextLabel" parent="Balloon/Margin/VBox" unique_id=175839020]
+modulate = Color(1, 1, 1, 0.470588)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 1
+bbcode_enabled = true
+text = "Character"
+scroll_active = false
+meta_underlined = false
+
+[node name="Dialogue" parent="Balloon/Margin/VBox" unique_id=1472339913 instance=ExtResource("2_akdm4")]
+layout_mode = 2
+text = "This is a bunch of dialogue!"
+
+[node name="Responses" type="VBoxContainer" parent="Balloon/Margin/VBox" unique_id=94025351]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ResponseTemplate" type="RichTextLabel" parent="." unique_id=1622267588]
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "test"
+scroll_active = false
+meta_underlined = false
+
+[connection signal="gui_input" from="Balloon" to="." method="_on_Balloon_gui_input"]
