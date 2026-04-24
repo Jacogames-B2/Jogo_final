@@ -21,6 +21,7 @@ Global="*uid://btk3s2xbg4bh5"
 ItemData="*uid://bh8kq0mt7lm1h"
 DialogueManager="*uid://c3rodes2l3gxb"
 InventoryManager="*uid://nfnqhmlxk7mk"
+Parallax2d="*uid://beun7ha731s3k"
 
 [dialogue_manager]
 
@@ -29,10 +30,6 @@ runtime/balloon_path="res://dialogos/balloon.tscn"
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
-
-[global_group]
-
-coletaveis=""
 
 [internationalization]
 
