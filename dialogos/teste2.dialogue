@@ -1,0 +1,197 @@
+~ inicio
+Elias Barreto:
+— Vocês acham que isso aqui é história? Que eu acordei um dia e resolvi inventar?
+
+Homem 1:
+— A gente acha que você precisa dormir, Elias
+
+Homem 1:
+— Ou parar de mexer com essas coisas de buraco.
+
+=> reacao_positiva
+
+
+~ reacao_positiva
+Elias Barreto:
+— Eu vi os mapas.
+
+Homem mais velho:
+— Mapas de quê?
+
+=> reacao_neutra
+
+
+~ reacao_neutra
+- Da Ciclo-Ouro.
+    => resposta_neutra
+- Barata atômica
+    => resposta_irritada
+
+
+~ resposta_neutra
+Homem 2:
+— Aquilo ali acabou, Elias
+
+Homem 2:
+— Já tem anos.
+
+Elias Barreto:
+— Acabou porque deu errado.
+
+Pessoa aleatória:
+— E daí?
+
+Pessoa aleatória:
+— É mina, ué.
+
+Elias Barreto:
+— Não.
+
+Elias Barreto:
+— Não é.
+
+Elias Barreto:
+— Tem lugar ali embaixo que não foi feito por eles.
+
+Elias Barreto:
+— E tem coisa… que eles não trouxeram pra fora.
+
+Homem do balcão:
+— Tá dizendo o quê?
+
+Elias Barreto:
+— Que a cidade tá oca.
+
+Pessoa:
+— Oca de quê?
+
+Elias Barreto:
+— Debaixo da gente… não é terra. Não mais.
+
+Pessoa:
+— Isso aí é coisa de doido
+
+Outra pessoa:
+— Ou de quem sabe demais
+
+Policial mais velho:
+— Acabou a farra! Recebemos reclamações de muito barulho aqui no bar. Então todo mundo pra casa.
+
+Policial mais novo:
+— Você. Vamos.
+
+Policial mais velho:
+— Você tá causando problema
+
+Elias Barreto:
+— Eu tô tentando evitar um.
+
+Policial mais novo:
+— Espalhando isso? Cidade oca? Buraco embaixo de todo mundo?
+
+=> escolha_policia_1
+
+
+~ escolha_policia_1
+- Vocês sabem que não é só isso.
+    => resposta_policia_1
+- (ficar em silêncio)
+    => resposta_policia_1
+
+
+~ resposta_policia_1
+Policial mais velho:
+— O que a gente sabe… é que você tá assustando gente que não tem nada a ver com isso.
+
+=> escolha_policia_2
+
+
+~ escolha_policia_2
+- Todo mundo tem a ver com isso. Tá todo mundo em cima.
+    => resposta_policia_2
+- (encarar em silêncio)
+    => resposta_policia_2
+
+
+~ resposta_policia_2
+Policial mais novo:
+— Você quer provar isso?
+
+Elias Barreto:
+— Quero.
+
+Policial mais novo:
+— Então, prove.
+
+Elias Barreto:
+— Como?
+
+Policial mais velho:
+— A segurança da mina vai estar desligada por 48 horas.
+
+Policial mais novo:
+— Transição de empresa.
+
+Elias Barreto:
+— Vocês tão falando sério?
+
+Policial mais velho:
+— Você não queria entrar?
+
+Policial mais velho:
+— Agora tem a chance.
+
+Elias Barreto:
+— Quarenta e oito horas...
+
+Policial:
+— Depois disso, a gente fecha de vez.
+
+=> escolha_final
+
+
+~ escolha_final
+- Certo.
+    => final_mina
+- Isso é loucura.
+    => final_desiste
+
+
+~ final_mina
+Elias Barreto:
+— Certo.
+
+Elias Barreto:
+— Se eu tiver certo…
+
+Policial:
+— Então você vai ser o primeiro a saber
+
+=> END
+
+
+~ final_desiste
+Elias Barreto:
+— Isso é loucura.
+
+Policial mais novo:
+— Então para de agir como se não fosse.
+
+Policial mais velho:
+— Some daqui, Elias.
+
+Fim: final 2/2: desistiu
+
+=> END
+
+
+~ resposta_irritada
+Homem vendedor de cigarros: — isso mesmo! baratas atômicas fugiram!!!!!!!
+
+Pessoa:— Agora pronto…
+
+Outro:— Perdeu de vez.
+
+Fim: final 1/2: baratas atômicas
+
+=> END
