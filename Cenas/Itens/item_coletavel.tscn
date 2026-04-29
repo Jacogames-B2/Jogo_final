@@ -11,7 +11,7 @@ metadata/_custom_type_script = "uid://bh8kq0mt7lm1h"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nm4c4"]
 
-[node name="Item_coletavel" type="Area2D" unique_id=222029094 groups=["coletaveis"]]
+[node name="Item_coletavel" type="Area2D" unique_id=222029094]
 script = ExtResource("1_4hwjm")
 item_data = SubResource("Resource_nm4c4")
 
@@ -19,7 +19,6 @@ item_data = SubResource("Resource_nm4c4")
 sprite_frames = SubResource("SpriteFrames_c8hhv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2127349813]
-position = Vector2(41, 15)
 shape = SubResource("RectangleShape2D_nm4c4")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

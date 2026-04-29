@@ -3,8 +3,8 @@
 [ext_resource type="Script" uid="uid://dgg0tbg1lyqat" path="res://Scripts/cena_principal.gd" id="1_rw51x"]
 [ext_resource type="PackedScene" uid="uid://dnkd1jmprjadk" path="res://Cenas/Itens/click.tscn" id="2_click"]
 
-[node name="Cena_principal" type="Node2D" unique_id=2126860034]
+[node name="Cena_principal" type="Node2D"]
 script = ExtResource("1_rw51x")
 
-[node name="ObjetoClicavel" parent="." unique_id=982731033 instance=ExtResource("2_click")]
+[node name="ObjetoClicavel" parent="." instance=ExtResource("2_click")]
 position = Vector2(400, 300)

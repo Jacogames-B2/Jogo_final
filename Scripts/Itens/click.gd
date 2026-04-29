@@ -3,8 +3,12 @@ extends Area2D
 
 func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 	if event is InputEventMouseButton and event.is_pressed() and event.button_index==MOUSE_BUTTON_LEFT:
-		#DialogueManager.show_dialogue_balloon(load("res://dialogos/teste1.dialogue"), "inicio")
+		DialogueManager.show_dialogue_balloon(load("res://dialogos/teste1.dialogue"), "inicio")
 		print("objeto clicado hahaha")
+<<<<<<< HEAD
 	
 func _process(delta: float) -> void:
 	global_position = get_global_mouse_position()
+=======
+		
+>>>>>>> 8b4655959ab727b63659d4694286d5e8240a02fe
