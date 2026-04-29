@@ -12,3 +12,12 @@ func adicionar_item(item: ItemData):
 			inventario_atualizado.emit()
 			return true
 	return false
+ 
+func pegar_itens(index, index2):
+	for i in range(slots.size()):
+		if slots[i] != null:
+			print("funcionou")
+	var itens = ItemData.new()
+	itens.juntar_itens(slots[index], slots[index2])
+	print(slots[index])
+		

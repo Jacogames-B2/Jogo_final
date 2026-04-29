@@ -10,3 +10,6 @@ position = Vector2(285, 181)
 
 [node name="Item_coletavel" parent="." unique_id=222029094 instance=ExtResource("2_4usxd")]
 position = Vector2(124, 60)
+
+[node name="Item_coletavel2" parent="." unique_id=1893988531 instance=ExtResource("2_4usxd")]
+position = Vector2(384, 48)
