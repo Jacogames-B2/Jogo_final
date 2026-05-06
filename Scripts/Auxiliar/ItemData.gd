@@ -5,6 +5,7 @@ func juntar_itens(item,item2):
 	print(item)
 	print(item2)
 
+@export var id: String
 @export var nome: String = ""
 @export var iconee: Texture2D
 @export var empilhavel: bool = false

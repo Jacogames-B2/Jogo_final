@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://dnkd1jmprjadk" path="res://Cenas/Itens/click.tscn" id="1_niyn4"]
 [ext_resource type="PackedScene" uid="uid://d3m8bihbwk6n2" path="res://Cenas/Itens/item_coletavel.tscn" id="2_4usxd"]
+[ext_resource type="Resource" uid="uid://bqn8nbny48j4o" path="res://Cenas/Itens/item/Madeira.tres" id="4_rmhd2"]
 
 [node name="Node2D" type="Node2D" unique_id=1349966834]
 
@@ -10,6 +11,8 @@ position = Vector2(285, 181)
 
 [node name="Item_coletavel" parent="." unique_id=222029094 instance=ExtResource("2_4usxd")]
 position = Vector2(124, 60)
+item_data = ExtResource("4_rmhd2")
 
 [node name="Item_coletavel2" parent="." unique_id=1893988531 instance=ExtResource("2_4usxd")]
 position = Vector2(384, 48)
+item_data = ExtResource("4_rmhd2")
