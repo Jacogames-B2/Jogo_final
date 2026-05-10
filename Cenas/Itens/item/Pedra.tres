@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cpntwae2ge6pq"]
 
 [ext_resource type="Script" uid="uid://bh8kq0mt7lm1h" path="res://Scripts/Auxiliar/ItemData.gd" id="1_cxa2o"]
+[ext_resource type="Texture2D" uid="uid://d3x1rvjb3momg" path="res://Cenas/Itens/item/drawing_eraser.png" id="1_xcs7n"]
 
 [resource]
 script = ExtResource("1_cxa2o")
 id = "Pedra"
 nome = "pedra"
+iconee = ExtResource("1_xcs7n")
 metadata/_custom_type_script = "uid://bh8kq0mt7lm1h"

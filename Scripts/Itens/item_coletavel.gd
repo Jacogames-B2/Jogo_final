@@ -2,18 +2,13 @@ extends Area2D
 
 @export var item_data: ItemData
 
-func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
-	if event is InputEventMouseButton and event.is_pressed() and event.button_index==MOUSE_BUTTON_LEFT:
-		InventoryManager.adicionar_item(item_data)
+@export var inventario: Inventory
+
+
+func _input_event(viewport, event, shape_idx):
+
+	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
+
+		inventario.adicionar_item(item_data)
+
 		queue_free()
-		print(InventoryManager.slots)
-
-func _process(delta: float) -> void:
-	if  Input.is_action_just_pressed("ui_accept"):
-		InventoryManager.pegar_itens(1,2)
-
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.

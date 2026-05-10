@@ -2,17 +2,28 @@
 
 [ext_resource type="PackedScene" uid="uid://dnkd1jmprjadk" path="res://Cenas/Itens/click.tscn" id="1_niyn4"]
 [ext_resource type="PackedScene" uid="uid://d3m8bihbwk6n2" path="res://Cenas/Itens/item_coletavel.tscn" id="2_4usxd"]
-[ext_resource type="Resource" uid="uid://bqn8nbny48j4o" path="res://Cenas/Itens/item/Madeira.tres" id="4_rmhd2"]
+[ext_resource type="Resource" uid="uid://cpntwae2ge6pq" path="res://Cenas/Itens/item/Pedra.tres" id="3_rmhd2"]
+[ext_resource type="Resource" uid="uid://v5gqgadnjcpc" path="res://Cenas/Itens/item/Machado.tres" id="4_rmhd2"]
+[ext_resource type="PackedScene" uid="uid://dixe3vi13r5qb" path="res://Cenas/ui/inventario.tscn" id="4_uxq4s"]
 
 [node name="Node2D" type="Node2D" unique_id=1349966834]
 
 [node name="click" parent="." unique_id=930543487 instance=ExtResource("1_niyn4")]
+visible = false
 position = Vector2(285, 181)
 
-[node name="Item_coletavel" parent="." unique_id=222029094 instance=ExtResource("2_4usxd")]
+[node name="Item_coletavel" parent="." unique_id=222029094 node_paths=PackedStringArray("inventario") instance=ExtResource("2_4usxd")]
 position = Vector2(124, 60)
-item_data = ExtResource("4_rmhd2")
+item_data = ExtResource("3_rmhd2")
+inventario = NodePath("../inventario")
 
-[node name="Item_coletavel2" parent="." unique_id=1893988531 instance=ExtResource("2_4usxd")]
+[node name="Item_coletavel2" parent="." unique_id=1893988531 node_paths=PackedStringArray("inventario") instance=ExtResource("2_4usxd")]
 position = Vector2(384, 48)
 item_data = ExtResource("4_rmhd2")
+inventario = NodePath("../inventario")
+
+[node name="inventario" parent="." unique_id=656242832 instance=ExtResource("4_uxq4s")]
+offset_left = 370.0
+offset_top = 147.0
+offset_right = 585.0
+offset_bottom = 247.0

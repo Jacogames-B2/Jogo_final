@@ -13,7 +13,7 @@ func adicionar_item(item: ItemData):
 	return false
  
 
-func pegar_itens(index: int, index2: int):
+func fundir_itens(index: int, index2: int):
 	var item1 = slots[index]
 	var item2 = slots[index2]
 
@@ -44,7 +44,7 @@ func testar_fusao():
 	print("Antes")
 	print(slots)
 
-	pegar_itens(0,1)
+	fundir_itens(0,1)
 
 	print("Depois")
 	print(slots)

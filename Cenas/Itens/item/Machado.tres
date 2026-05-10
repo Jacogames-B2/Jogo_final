@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://v5gqgadnjcpc"]
 
 [ext_resource type="Script" uid="uid://bh8kq0mt7lm1h" path="res://Scripts/Auxiliar/ItemData.gd" id="1_4qqa7"]
+[ext_resource type="Texture2D" uid="uid://xbn7ea8btiep" path="res://Cenas/Itens/item/bracket_b_horizontal.png" id="1_ek84m"]
 
 [resource]
 script = ExtResource("1_4qqa7")
 id = "Machado"
 nome = "machado"
+iconee = ExtResource("1_ek84m")
 metadata/_custom_type_script = "uid://bh8kq0mt7lm1h"
