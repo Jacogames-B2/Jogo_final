@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cw7vxon57pehj"]
+
+[ext_resource type="Script" uid="uid://0h13p04u2brg" path="res://Scripts/Mapas/mapa_1.gd" id="1_6ne6l"]
+
+[node name="Mapa1" type="TileMapLayer" unique_id=708717238]
+script = ExtResource("1_6ne6l")

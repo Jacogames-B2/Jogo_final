@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bqn8nbny48j4o"]
+
+[ext_resource type="Script" uid="uid://bh8kq0mt7lm1h" path="res://Scripts/Auxiliar/ItemData.gd" id="1_44iea"]
+[ext_resource type="Texture2D" uid="uid://hh1x6qaw6kq1" path="res://Cenas/Itens/item/drawing_picker.png" id="1_fjb0i"]
+
+[resource]
+script = ExtResource("1_44iea")
+id = "Madeira"
+nome = "madeira"
+iconee = ExtResource("1_fjb0i")
+metadata/_custom_type_script = "uid://bh8kq0mt7lm1h"
