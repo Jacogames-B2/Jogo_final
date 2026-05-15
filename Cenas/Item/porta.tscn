@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dctee5eu23bnl"]
+
+[ext_resource type="Script" uid="uid://1p2c8wl31gm1" path="res://Scripts/Itens/static_body_2d.gd" id="1_odqsn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t26b0"]
+
+[node name="Porta" type="StaticBody2D" unique_id=2105461776]
+script = ExtResource("1_odqsn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=800488836]
+shape = SubResource("RectangleShape2D_t26b0")
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]

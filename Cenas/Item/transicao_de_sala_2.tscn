@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://buvx04ptyydk2"]
+
+[ext_resource type="Script" uid="uid://bqalx0lx6f3tm" path="res://transicao_de_sala_2.gd" id="1_8cvs2"]
+[ext_resource type="Texture2D" uid="uid://j0io835i7a87" path="res://icon.svg" id="2_0ewq7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f101s"]
+size = Vector2(73, 247)
+
+[node name="transicao_de_sala2" type="Area2D" unique_id=80693173]
+script = ExtResource("1_8cvs2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2044331679]
+position = Vector2(36.5, 123.5)
+shape = SubResource("RectangleShape2D_f101s")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1573314481]
+position = Vector2(35.5, 124.5)
+scale = Vector2(0.5703125, 1.9296875)
+texture = ExtResource("2_0ewq7")
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]

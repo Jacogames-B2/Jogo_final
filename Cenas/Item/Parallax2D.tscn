@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://d2vu0fg1rvyv3"]
+
+[ext_resource type="Texture2D" uid="uid://cbfnhompm3e6y" path="res://Artes/Captura de tela de 2026-04-22 14-30-34.png" id="1_5dprf"]
+[ext_resource type="Script" uid="uid://beun7ha731s3k" path="res://Scripts/Mapas/parallax_2d.gd" id="1_31hke"]
+[ext_resource type="PackedScene" uid="uid://chd44cwat4eck" path="res://Cenas/Itens/transicao_de_sala.tscn" id="3_leisg"]
+[ext_resource type="PackedScene" uid="uid://buvx04ptyydk2" path="res://Cenas/Itens/transicao_de_sala_2.tscn" id="4_leisg"]
+
+[node name="Parallax2d" type="Parallax2D" unique_id=1795281509]
+script = ExtResource("1_31hke")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1365558246]
+position = Vector2(1769, -14.999999)
+scale = Vector2(8.148087, 5.217742)
+texture = ExtResource("1_5dprf")
+
+[node name="Transicao_de_sala" parent="." unique_id=527440430 instance=ExtResource("3_leisg")]
+position = Vector2(472, -103)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=966374844]
+limit_left = -670
+limit_right = 557
+position_smoothing_enabled = true
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+
+[node name="transicao_de_sala2" parent="." unique_id=80693173 instance=ExtResource("4_leisg")]
+position = Vector2(-545, -100)
