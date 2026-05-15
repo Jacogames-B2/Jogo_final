@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Turma A2"
+run/main_scene="uid://dbv8hy1l31x8q"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 config/run/main_scene="res://Cenas/Arenas/arena_base.tscn"
