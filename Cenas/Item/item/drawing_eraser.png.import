@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blp7xhrtbwktv"
-path="res://.godot/imported/Captura de tela de 2026-04-22 14-30-34.png-a3b1365fb553cf0f0843a81aaac48755.ctex"
+uid="uid://d3x1rvjb3momg"
+path="res://.godot/imported/drawing_eraser.png-e9b6adcb761fb23ccdb98ec43fdc1ef5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Artes/Captura de tela de 2026-04-22 14-30-34.png"
-dest_files=["res://.godot/imported/Captura de tela de 2026-04-22 14-30-34.png-a3b1365fb553cf0f0843a81aaac48755.ctex"]
+source_file="res://Cenas/Item/item/drawing_eraser.png"
+dest_files=["res://.godot/imported/drawing_eraser.png-e9b6adcb761fb23ccdb98ec43fdc1ef5.ctex"]
 
 [params]
 

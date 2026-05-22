@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://bckumxvkkfihs"]
+
+[ext_resource type="Script" uid="uid://dx8ymlf0c4dk1" path="res://Scripts/Itens/click_follow.gd" id="1_x35uo"]
+[ext_resource type="Texture2D" uid="uid://c75jrp57x4wfs" path="res://icon.svg" id="2_c3u2g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c3u2g"]
+size = Vector2(122, 124)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dqj4v"]
+atlas = ExtResource("2_c3u2g")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dqj4v"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dqj4v")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Click_follow" type="Area2D" unique_id=346217174]
+position = Vector2(64, 65)
+script = ExtResource("1_x35uo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=525293710]
+position = Vector2(0, -1)
+shape = SubResource("RectangleShape2D_c3u2g")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=662674914]
+sprite_frames = SubResource("SpriteFrames_dqj4v")
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]

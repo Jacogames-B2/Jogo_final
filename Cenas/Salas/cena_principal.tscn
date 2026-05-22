@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dmlheo51r7r46"]
+
+[ext_resource type="Script" uid="uid://brtn4g485rcbu" path="res://Scripts/cena_principal.gd" id="1_rw51x"]
+[ext_resource type="PackedScene" uid="uid://dnkd1jmprjadk" path="res://Cenas/Itens/click.tscn" id="2_click"]
+[ext_resource type="Script" uid="uid://c658o4jshe2uy" path="res://Scripts/area_2d_cena_a.gd" id="3_ldybl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_evdcf"]
+
+[node name="Cena_principal" type="Node2D" unique_id=802709661]
+script = ExtResource("1_rw51x")
+
+[node name="ObjetoClicavel" parent="." unique_id=1082868865 instance=ExtResource("2_click")]
+position = Vector2(55, 65)
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1789456599]
+script = ExtResource("3_ldybl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1913767974]
+shape = SubResource("RectangleShape2D_evdcf")
+
+[connection signal="input_event" from="Area2D" to="Area2D" method="_on_input_event"]

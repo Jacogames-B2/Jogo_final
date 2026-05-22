@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blp7xhrtbwktv"
-path="res://.godot/imported/Captura de tela de 2026-04-22 14-30-34.png-a3b1365fb553cf0f0843a81aaac48755.ctex"
+uid="uid://xbn7ea8btiep"
+path="res://.godot/imported/bracket_b_horizontal.png-0d7013320a747e798a40de07f114db3b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Artes/Captura de tela de 2026-04-22 14-30-34.png"
-dest_files=["res://.godot/imported/Captura de tela de 2026-04-22 14-30-34.png-a3b1365fb553cf0f0843a81aaac48755.ctex"]
+source_file="res://Cenas/Item/item/bracket_b_horizontal.png"
+dest_files=["res://.godot/imported/bracket_b_horizontal.png-0d7013320a747e798a40de07f114db3b.ctex"]
 
 [params]
 

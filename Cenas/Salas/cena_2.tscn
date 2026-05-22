@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://plihjn86e5mb"]
+
+[ext_resource type="PackedScene" uid="uid://dnkd1jmprjadk" path="res://Cenas/Itens/click.tscn" id="1_y61al"]
+[ext_resource type="PackedScene" uid="uid://d3m8bihbwk6n2" path="res://Cenas/Itens/item_coletavel.tscn" id="2_dqqpt"]
+[ext_resource type="PackedScene" uid="uid://dixe3vi13r5qb" path="res://Cenas/ui/inventario.tscn" id="3_f4u43"]
+[ext_resource type="Script" uid="uid://bwen4orc61l1c" path="res://Scripts/area_2d_Cena2.gd" id="4_dqqpt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f4u43"]
+
+[node name="Cena2" type="Node2D" unique_id=1235834304]
+
+[node name="click" parent="." unique_id=930543487 instance=ExtResource("1_y61al")]
+
+[node name="Item_coletavel" parent="." unique_id=222029094 instance=ExtResource("2_dqqpt")]
+
+[node name="Item_coletavel2" parent="." unique_id=405331372 instance=ExtResource("2_dqqpt")]
+
+[node name="Item_coletavel3" parent="." unique_id=1988050466 instance=ExtResource("2_dqqpt")]
+
+[node name="Item_coletavel4" parent="." unique_id=462361062 instance=ExtResource("2_dqqpt")]
+
+[node name="inventario" parent="." unique_id=656242832 instance=ExtResource("3_f4u43")]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=892684440]
+script = ExtResource("4_dqqpt")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=649700373]
+shape = SubResource("RectangleShape2D_f4u43")
+
+[connection signal="input_event" from="Area2D" to="Area2D" method="_on_input_event"]

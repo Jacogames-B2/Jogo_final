@@ -1,8 +1,22 @@
-[gd_scene format=3 uid="uid://d3m8bihbwk6n2"]
+[gd_scene format=3 uid="uid://ctbk54vu4fvug"]
 
 [ext_resource type="Script" uid="uid://b0v1xt3e3d4qm" path="res://Scripts/Itens/item_coletavel.gd" id="1_4hwjm"]
+[ext_resource type="Texture2D" uid="uid://clyuqorlji38n" path="res://Artes/TileSets/Itens.png" id="2_wbnjr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m48w0"]
+atlas = ExtResource("2_wbnjr")
+region = Rect2(0, 0, 292, 256)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_c8hhv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m48w0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nm4c4"]
 
@@ -10,9 +24,11 @@
 script = ExtResource("1_4hwjm")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=191923751]
+position = Vector2(-2.000001, 0.5)
+scale = Vector2(0.07534247, 0.08984376)
 sprite_frames = SubResource("SpriteFrames_c8hhv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2127349813]
 shape = SubResource("RectangleShape2D_nm4c4")
 
-[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="input_event" from="." to="." method="_on_input_event"]

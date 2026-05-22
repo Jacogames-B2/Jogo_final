@@ -32,19 +32,3 @@ func verificar_fusao(item1: ItemData, item2: ItemData) -> ItemData:
 	if item1.id == "Madeira" and item2.id == "Pedra":
 		return preload("res://Cenas/Itens/item/Machado.tres")
 	return
-
-func _input(event: InputEvent):
-	if event.is_action_pressed("fusao"):
-		testar_fusao()
-
-func testar_fusao():
-	slots[0] = preload("res://Cenas/Itens/item/Madeira.tres")
-	slots[1] = preload("res://Cenas/Itens/item/Pedra.tres")
-
-	print("Antes")
-	print(slots)
-
-	fundir_itens(0,1)
-
-	print("Depois")
-	print(slots)

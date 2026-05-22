@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dij0shceqfjwd"]
+
+[ext_resource type="Texture2D" uid="uid://xbn7ea8btiep" path="res://Cenas/Itens/item/bracket_b_horizontal.png" id="1_444gg"]
+[ext_resource type="Script" uid="uid://bh8kq0mt7lm1h" path="res://Scripts/Auxiliar/ItemData.gd" id="2_a6kdo"]
+
+[resource]
+script = ExtResource("2_a6kdo")
+id = "Chave"
+nome = "chave"
+iconee = ExtResource("1_444gg")
+metadata/_custom_type_script = "uid://bh8kq0mt7lm1h"

@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cfbbwgsfmmgec"]
+
+[ext_resource type="PackedScene" uid="uid://dnkd1jmprjadk" path="res://Cenas/Itens/click.tscn" id="1_3xfbo"]
+[ext_resource type="PackedScene" uid="uid://d3m8bihbwk6n2" path="res://Cenas/Itens/item_coletavel.tscn" id="2_pjmk1"]
+[ext_resource type="PackedScene" uid="uid://dixe3vi13r5qb" path="res://Cenas/ui/inventario.tscn" id="3_ndir7"]
+
+[node name="Cena5" type="Node2D" unique_id=1684699693]
+
+[node name="click" parent="." unique_id=930543487 instance=ExtResource("1_3xfbo")]
+
+[node name="Item_coletavel" parent="." unique_id=222029094 instance=ExtResource("2_pjmk1")]
+
+[node name="Item_coletavel2" parent="." unique_id=2137586979 instance=ExtResource("2_pjmk1")]
+
+[node name="Item_coletavel3" parent="." unique_id=1636048572 instance=ExtResource("2_pjmk1")]
+
+[node name="Item_coletavel4" parent="." unique_id=1062755068 instance=ExtResource("2_pjmk1")]
+
+[node name="inventario" parent="." unique_id=656242832 instance=ExtResource("3_ndir7")]

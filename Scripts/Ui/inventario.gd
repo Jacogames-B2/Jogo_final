@@ -10,8 +10,9 @@ func _ready() -> void:
 	Input.set_custom_mouse_cursor(HAND_THIN_SMALL_CLOSED, Input.CURSOR_FORBIDDEN)
 	Input.set_custom_mouse_cursor(HAND_THIN_SMALL_CLOSED, Input.CURSOR_CAN_DROP)
 	Input.set_custom_mouse_cursor(HAND_THIN_SMALL_CLOSED, Input.CURSOR_DRAG)
+	InventoryManager.inventario_atualizado.connect(_sync_from_manager)
 
-var data_bk 
+var data_bk
 func _notification(what: int) -> void:
 	if what == Node.NOTIFICATION_DRAG_BEGIN:
 		data_bk = get_viewport().gui_get_drag_data()
@@ -20,24 +21,18 @@ func _notification(what: int) -> void:
 			if data_bk:
 				data_bk.icon.show()
 				data_bk = null
+		sync_to_manager()
 
 
 @export var slots: Array[Panel]
 
 
-func adicionar_item(item: ItemData):
+func _sync_from_manager() -> void:
+	for i in range(slots.size()):
+		slots[i].item = InventoryManager.slots[i]
+		slots[i].update_ui()
 
-	for slot in slots:
 
-		if slot.item == null:
-
-			slot.item = item
-			slot.update_ui()
-
-			print("item adicionado:", item.nome)
-
-			return true
-
-	print("inventário cheio")
-
-	return false
+func sync_to_manager() -> void:
+	for i in range(slots.size()):
+		InventoryManager.slots[i] = slots[i].item

@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://d2vu0fg1rvyv3"]
+[gd_scene format=3 uid="uid://dvijsunm1l7p3"]
 
 [ext_resource type="Texture2D" uid="uid://cbfnhompm3e6y" path="res://Artes/Captura de tela de 2026-04-22 14-30-34.png" id="1_5dprf"]
 [ext_resource type="Script" uid="uid://beun7ha731s3k" path="res://Scripts/Mapas/parallax_2d.gd" id="1_31hke"]

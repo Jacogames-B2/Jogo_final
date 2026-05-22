@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://chdp0domj07wk"]
+
+[ext_resource type="PackedScene" uid="uid://s8xpy2blhopg" path="res://Cenas/Item/click.tscn" id="1_4bx6n"]
+[ext_resource type="PackedScene" uid="uid://ctbk54vu4fvug" path="res://Cenas/Item/item_coletavel.tscn" id="2_rl78d"]
+[ext_resource type="Resource" uid="uid://dij0shceqfjwd" path="res://Cenas/Item/item/chave.tres" id="3_ygm76"]
+[ext_resource type="Resource" uid="uid://v5gqgadnjcpc" path="res://Cenas/Itens/item/Machado.tres" id="4_kco5b"]
+[ext_resource type="Resource" uid="uid://bqn8nbny48j4o" path="res://Cenas/Itens/item/Madeira.tres" id="5_t781n"]
+[ext_resource type="Resource" uid="uid://cpntwae2ge6pq" path="res://Cenas/Itens/item/Pedra.tres" id="6_fg6hi"]
+[ext_resource type="PackedScene" uid="uid://dixe3vi13r5qb" path="res://Cenas/ui/inventario.tscn" id="7_ycggk"]
+[ext_resource type="Script" uid="uid://xpab8vvxa307" path="res://Scripts/area_2d_Cena1.gd" id="8_rl78d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ygm76"]
+
+[node name="Cena_1" type="Node2D" unique_id=406206166]
+
+[node name="click" parent="." unique_id=930543487 instance=ExtResource("1_4bx6n")]
+position = Vector2(65, 63)
+
+[node name="Item_coletavel" parent="." unique_id=222029094 instance=ExtResource("2_rl78d")]
+position = Vector2(150, 18)
+item_data = ExtResource("3_ygm76")
+
+[node name="Item_coletavel2" parent="." unique_id=1808020255 instance=ExtResource("2_rl78d")]
+position = Vector2(190, 20)
+item_data = ExtResource("4_kco5b")
+
+[node name="Item_coletavel3" parent="." unique_id=676697390 instance=ExtResource("2_rl78d")]
+position = Vector2(147, 52)
+item_data = ExtResource("5_t781n")
+
+[node name="Item_coletavel4" parent="." unique_id=959696390 instance=ExtResource("2_rl78d")]
+position = Vector2(189, 54)
+item_data = ExtResource("6_fg6hi")
+
+[node name="inventario" parent="." unique_id=656242832 instance=ExtResource("7_ycggk")]
+offset_left = 15.5
+offset_top = 151.0
+offset_right = 230.5
+offset_bottom = 251.0
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1414963738]
+script = ExtResource("8_rl78d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1582072742]
+shape = SubResource("RectangleShape2D_ygm76")
+
+[connection signal="input_event" from="Area2D" to="Area2D" method="_on_input_event"]
